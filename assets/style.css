@@ -143,7 +143,7 @@ a .divisore{
 .main1 .col{
   background-color: #bad2e5;
 }
-.main1 img{
+.main1 .col img{
   width: 200px;
   margin-top: 5%;
 }
@@ -324,9 +324,7 @@ ul .check{
 .col4 .riga1{
   height:150px;
 }
-.col4 .riga2{
-  height:70%;
-}
+
 .customers{
   float:left;
   width:30%;
@@ -354,7 +352,111 @@ ul .check{
 }
 .loghi ul li{
   display: inline-block;
+  margin-right:20px;
 }
 .loghi div img{
+  width:200px;
  vertical-align: middle;
+}
+.grow{
+display:inline-block;
+width: 30%;
+float:left;
+text-align: left;
+}
+.grow h2{
+  color: #33475B;
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 10%;
+}
+.grow p{
+  color: #33475B;
+  font-family: "montserrat" Arial;
+  margin-bottom:10%;
+}
+.col4 .img{
+  width: 70%;
+  float:left;
+  text-align:right;
+  line-height: 300px;
+}
+.img img{
+  height:300px;
+}
+.sottotitolo{
+  font-size:12px;
+}
+.grow .button{
+  margin-bottom:8%;
+}
+footer{
+  padding:5% 0;
+  display:inline-block;
+  width:100%;
+  background-color: #32495B;
+  color:white;
+}
+.footer80{
+  width:80%;
+  margin:auto;
+}
+.footercol{
+  width:20%;
+  display:inline-block;
+  float:left;
+  margin-bottom: 10%;
+}
+.footercol h3{
+  margin-bottom: 7%;
+}
+.footercol ul li{
+  list-style: none;
+  margin-bottom:5%;
+}
+.footercol + .footercol{
+  margin-left:6%;
+}
+.white{
+  background-color:#DADEE0;
+  color:#32495B;
+  border:1px solid white;
+}
+
+.icone ul li{
+  display:inline-block;
+  list-style: none;
+  margin-right:10%;
+  margin-top:5%;
+}
+.lingue{
+  display:block;
+  text-align:center;
+  border-bottom: solid 1px white;
+  padding-bottom:1%;
+}
+.fleft{
+  display:inline-block;
+  width:50%;
+  text-align:left;
+  float:left;
+  margin-top: 2%;
+}
+.fright{
+  display:inline-block;
+  width:50%;
+  text-align:right;
+  float:left;
+  margin-top: 2%;
+  height:52px;
+  line-height: 52px;
+  vertical-align: middle;
+}
+.copyright{
+  font-size: 12px;
+}
+.privacy{
+  
+  text-align: right;
+  
 }
