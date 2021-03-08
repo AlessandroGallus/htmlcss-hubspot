@@ -268,7 +268,7 @@ ul .check{
   background-color: #00B7AC;
   color:#fff;
   padding-top:3%;
-  padding-bottom: 20%;;
+  padding-bottom: 3%;;
 }
 .info h1{
   display: inline-block;
@@ -282,16 +282,79 @@ ul .check{
   padding-bottom:2%;
   font-size:17px;
 }
-.riga1{
+.info .riga1{
   margin:auto;
   width:80%;
   border-bottom: 1px solid white;
+  padding:0;
+}
+.info .riga2{
+  margin:auto;
+  width:80%;
+  padding:0;
 }
 .box{
   box-sizing: border-box;
   display:inline-block;
   width:calc(99%/4);
-  border-right:1px solid white;
-  height:200px;
   padding:0;
+  text-align: center;
+  height:100%;
+  padding-top: 1%;
+}
+.box + .box{ 
+  border-left:1px solid white; 
+}
+.box img{
+  height:40px;
+  margin:0;
+  margin-bottom: 3%;
+}
+.box h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:3em;
+  margin-bottom: 5%;
+  font-weight: 600;
+}
+.col4{
+  width:80%;
+  margin:auto;
+  padding-top:3%;
+}
+.col4 .riga1{
+  height:150px;
+}
+.col4 .riga2{
+  height:70%;
+}
+.customers{
+  float:left;
+  width:30%;
+  height:150px;
+  padding-top:2%;
+}
+.customers h3{
+  color: #33475B;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:2em;
+  margin-bottom: 2%;
+}
+.customers p{
+  font-weight: 600;
+  color: #33475B;
+  width:50%;
+  margin:auto;
+}
+.loghi{
+  height:100px;
+  float:left;
+  margin:auto;
+  display:inline-block;
+  margin-bottom: 20%;
+}
+.loghi ul li{
+  display: inline-block;
+}
+.loghi div img{
+ vertical-align: middle;
 }
