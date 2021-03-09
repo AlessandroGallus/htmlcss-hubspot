@@ -12,6 +12,9 @@ body{
   display: table;
   clear: both;
 }
+header{
+  min-width: 1400px;
+}
 .top{
   width:70%;
   margin:auto;
@@ -132,10 +135,13 @@ a .divisore{
   margin: 5% 0;
   padding:15px 30px;
 }
-.jumbotron .button:hover{
+.orange:hover{
   background-color: #FE775A;
   opacity: 0.8;
   cursor:grab;
+}
+main{
+  min-width: 1400px;
 }
 .main1{
   text-align: center;
@@ -276,6 +282,11 @@ ul .check{
   padding-bottom:2%;
   font-weight: 800;
 }
+.info h2:after{
+  font-size: 30px ;
+  content:"+";
+  vertical-align: middle;
+}
 .info p{
   display: inline-block;
   width: 80%;
@@ -391,6 +402,7 @@ text-align: left;
   margin-bottom:8%;
 }
 footer{
+  min-width: 1400px;
   padding:5% 0;
   display:inline-block;
   width:100%;
@@ -422,7 +434,6 @@ footer{
   color:#32495B;
   border:1px solid white;
 }
-
 .icone ul li{
   display:inline-block;
   list-style: none;
@@ -456,7 +467,8 @@ footer{
   font-size: 12px;
 }
 .privacy{
-  
   text-align: right;
-  
+}
+footer a:visited{
+  color:white;
 }
